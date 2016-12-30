@@ -1,0 +1,150 @@
+
+body{
+  font-family: Arial;
+  position: relative;
+}
+
+.carousel-inner img{
+  width: 100%;
+  margin: auto;
+  -webkit-filter: brightness(80%);
+}
+.carousel-caption p{
+  font-size: 3em;
+  color: #fff;
+  transform: translateY(-500%);
+  bottom: initial;
+}
+.profile{
+  text-align: center;
+}
+
+.container{
+  display: inline-block;
+  /*border: 3px solid grey;*/
+  padding-left: 15%;
+  padding-right:15%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.title{
+  font-size: 2.5em;
+  color: #737495; 
+}
+.content1{
+  color: #7f7f7f;
+  font-size: 1.1em;
+}
+
+.glyphicon {
+    font-size: 20px;
+}
+.navbar{
+  margin-bottom: 0;
+  background-color: #ebebeb;
+  border: 0;
+  font-size: 18px;
+  opacity:0.9;
+}
+.navbar li a{
+  color: #737495;
+}
+.navbar-nav li a:hover{
+  color: white !important;
+  background-color: #aaaaaa !important;
+}
+/*check later*/
+.navbar-nav li.active a{
+  color: white !important;
+  background-color: #737495 !important;
+}
+.colored-container{
+  background-color: #f6e5dd;
+}
+.content2{
+  font-size: 1.2em;
+}
+.content3{
+  font-size: 1.1em;
+}
+.subTitle{
+  font-size: 1.7em;
+  color: #737495; 
+}
+.star{
+  font-size: 15px;
+}
+
+/*.col-lg-4 {border: 1px solid black;}
+.col-lg-3{border: 1px solid black;}
+.col-lg-6 {border: 1px solid black;}
+.col-lg-12{border: 1px solid black;}*/
+
+/*drawing heart*/
+.heart:hover,.heart:hover::before,.heart:hover::after{background: grey;}
+.heart {
+  background: #b195c6;
+  display: inline-block;
+  height: 8px;
+  margin: 0 5px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 8px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background: #b195c6;
+  border-radius: 45%;
+  height: 8px;
+  position: absolute;
+  width: 8px;
+}
+.heart:before {
+  top: -6px;
+  left: 0;
+}
+.heart:after {
+  left: 6px;
+  top: 0;
+}
+/*skill back ground animation*/
+.change{
+  background: white;
+  padding-top: 5px;
+}
+.change:hover{background: #DDDAD6;}
+.space{display:inline-block; width:73%;}
+
+/*drawing grey heart*/
+.heartGrey {
+  background: #adbacd;
+  display: inline-block;
+  height: 8px;
+  margin: 0 5px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 8px;
+}
+
+.heartGrey:before,
+.heartGrey:after {
+  content: "";
+  background: #adbacd;
+  border-radius: 45%;
+  height: 8px;
+  position: absolute;
+  width: 8px;
+}
+.heartGrey:before {
+  top: -6px;
+  left: 0;
+}
+.heartGrey:after {
+  left: 6px;
+  top: 0;
+}
